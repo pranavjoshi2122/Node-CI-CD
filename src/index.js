@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const mainRoute = require("./routes/main");
 
 const app = express();
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 8000;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
